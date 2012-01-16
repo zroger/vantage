@@ -1,8 +1,3 @@
-> **vantage**
->
-> a position giving a strategic advantage, commanding perspective, or
-> comprehensive view 
-
 Vantage is a Drupal installation profile that aims to give developers and site
 builders a strategic advantage when building large-scale Drupal sites.
 
