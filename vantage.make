@@ -10,7 +10,7 @@ projects[libraries][subdir] = contrib
 projects[libraries][version] = 1.0
 
 projects[template_field][subdir] = contrib
-projects[template_field][version] = 1.0-alpha7
+projects[template_field][version] = 1.0-alpha8
 
 projects[formatter_field][subdir] = contrib
 projects[formatter_field][version] = 1.0-beta2

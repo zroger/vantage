@@ -8,11 +8,6 @@
  * Implements hook_install().
  */
 function vantage_install() {
-  $modules = array();
-  $modules[] = 'toolbar';
-  $modules[] = 'vantage_page';
-  module_enable($modules, TRUE);
-
   // Create a default role for site administrators, with all available permissions assigned.
   $admin_role = new stdClass();
   $admin_role->name = 'administrator';

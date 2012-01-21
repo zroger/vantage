@@ -1,3 +1,14 @@
 name = Vantage
 description = An install profile for developers.
 core = 7.x
+
+; Dependencies in profiles are not actual dependencies.  These will be enabled
+; on install, but will not be true dependencies after install.
+; See http://drupal.org/node/820054
+
+; Basics
+dependencies[] = toolbar
+dependencies[] = shortcut
+
+; Vantage modules
+dependencies[] = vantage_page
