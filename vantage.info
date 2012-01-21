@@ -1,0 +1,3 @@
+name = Vantage
+description = An install profile for developers.
+core = 7.x

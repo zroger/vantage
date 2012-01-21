@@ -1,0 +1,14 @@
+<?php
+/**
+ * @file
+ * Install and update functions for the Vantage install profile.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function vantage_install() {
+  $modules = array();
+  $modules[] = 'vantage_page';
+  module_enable($modules, TRUE);
+}
