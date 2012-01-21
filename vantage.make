@@ -2,7 +2,7 @@
 core = 7.x
 api = 2
 
-;
+; Contrib modules
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.0-rc1
 
@@ -21,3 +21,9 @@ projects[vantage_page][subdir] = "custom"
 projects[vantage_page][download][type] = "git"
 projects[vantage_page][download][url] = "git@github.com:zroger/vantage_page.git"
 projects[vantage_page][download][branch] = "master"
+
+; Libraries
+libraries[mustache.php][download][type] = "git"
+libraries[mustache.php][download][url] = "https://github.com/bobthecow/mustache.php.git"
+libraries[mustache.php][download][tag] = "v0.9.0"
+libraries[mustache.php][directory_name] = "mustache"
