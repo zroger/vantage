@@ -22,7 +22,7 @@ projects[field_group][version] = 1.1
 projects[vantage_page][type] = "module"
 projects[vantage_page][subdir] = "custom"
 projects[vantage_page][download][type] = "git"
-projects[vantage_page][download][url] = "git@github.com:zroger/vantage_page.git"
+projects[vantage_page][download][url] = "https://github.com/zroger/vantage_page.git"
 projects[vantage_page][download][branch] = "master"
 
 ; Libraries

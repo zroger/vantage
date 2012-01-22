@@ -6,5 +6,5 @@ api = 2
 ; Vantage Profile.
 projects[vantage][type] = "profile"
 projects[vantage][download][type] = "git"
-projects[vantage][download][url] = "git@github.com:zroger/vantage.git"
+projects[vantage][download][url] = "https://github.com/zroger/vantage.git"
 projects[vantage][download][branch] = "master"
