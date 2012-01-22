@@ -15,6 +15,9 @@ projects[template_field][version] = 1.0-alpha8
 projects[formatter_field][subdir] = contrib
 projects[formatter_field][version] = 1.0-beta2
 
+projects[field_group][subdir] = contrib
+projects[field_group][version] = 1.1
+
 ; Vantage Page.
 projects[vantage_page][type] = "module"
 projects[vantage_page][subdir] = "custom"

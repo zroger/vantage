@@ -7,8 +7,14 @@ core = 7.x
 ; See http://drupal.org/node/820054
 
 ; Basics
-dependencies[] = toolbar
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = help
+dependencies[] = menu
+dependencies[] = path
 dependencies[] = shortcut
+dependencies[] = toolbar
 
 ; Vantage modules
 dependencies[] = vantage_page
